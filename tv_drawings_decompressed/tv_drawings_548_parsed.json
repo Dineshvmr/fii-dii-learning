@@ -1,0 +1,133 @@
+{
+  "currencyId": null,
+  "id": "1oJVIM",
+  "ownerSource": "_seriesId",
+  "state": {
+    "id": "1oJVIM",
+    "isSelectionEnabled": true,
+    "linkKey": "SmU1uF4L6QFi",
+    "ownerSource": "_seriesId",
+    "points": [
+      {
+        "interval": "1D",
+        "offset": 0,
+        "price": 22790.256648781902,
+        "time_t": 1745466300
+      },
+      {
+        "interval": "1D",
+        "offset": 0,
+        "price": 24298.827559454756,
+        "time_t": 1751600700
+      },
+      {
+        "interval": "1D",
+        "offset": 0,
+        "price": 24272.050145011603,
+        "time_t": 1745466300
+      }
+    ],
+    "state": {
+      "backgroundColor": "rgba(41, 98, 255, 0.2)",
+      "currencyId": null,
+      "extendLeft": false,
+      "extendRight": false,
+      "fillBackground": true,
+      "frozen": false,
+      "interval": "1D",
+      "intervalsVisibilities": {
+        "days": true,
+        "daysFrom": 1,
+        "daysTo": 366,
+        "hours": true,
+        "hoursFrom": 1,
+        "hoursTo": 24,
+        "minutes": true,
+        "minutesFrom": 1,
+        "minutesTo": 59,
+        "months": true,
+        "monthsFrom": 1,
+        "monthsTo": 12,
+        "ranges": true,
+        "seconds": true,
+        "secondsFrom": 1,
+        "secondsTo": 59,
+        "ticks": true,
+        "weeks": true,
+        "weeksFrom": 1,
+        "weeksTo": 52
+      },
+      "labelBold": false,
+      "labelFontSize": 14,
+      "labelHorzAlign": "left",
+      "labelItalic": false,
+      "labelText": "",
+      "labelTextColor": "#2962FF",
+      "labelVertAlign": "bottom",
+      "labelVisible": false,
+      "level1": {
+        "coeff": -0.25,
+        "color": "#2962ff",
+        "lineStyle": 0,
+        "lineWidth": 1,
+        "visible": false
+      },
+      "level2": {
+        "coeff": 0,
+        "color": "#2962FF",
+        "lineStyle": 0,
+        "lineWidth": 2,
+        "visible": true
+      },
+      "level3": {
+        "coeff": 0.25,
+        "color": "#2962ff",
+        "lineStyle": 0,
+        "lineWidth": 1,
+        "visible": false
+      },
+      "level4": {
+        "coeff": 0.5,
+        "color": "#2962FF",
+        "lineStyle": 2,
+        "lineWidth": 1,
+        "visible": true
+      },
+      "level5": {
+        "coeff": 0.75,
+        "color": "#2962ff",
+        "lineStyle": 0,
+        "lineWidth": 1,
+        "visible": false
+      },
+      "level6": {
+        "coeff": 1,
+        "color": "#2962FF",
+        "lineStyle": 0,
+        "lineWidth": 2,
+        "visible": true
+      },
+      "level7": {
+        "coeff": 1.25,
+        "color": "#2962ff",
+        "lineStyle": 0,
+        "lineWidth": 1,
+        "visible": false
+      },
+      "symbol": "NIFTY",
+      "symbolStateVersion": 2,
+      "title": "",
+      "transparency": 20,
+      "unitId": null,
+      "version": 2,
+      "visible": true,
+      "zOrderVersion": 2
+    },
+    "type": "LineToolParallelChannel",
+    "userEditEnabled": true,
+    "version": 2,
+    "zorder": -10020
+  },
+  "symbol": "NIFTY",
+  "unitId": null
+}

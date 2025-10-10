@@ -1,0 +1,1322 @@
+{
+  "panes": [
+    {
+      "isCollapsed": false,
+      "isMaximized": false,
+      "leftAxisesState": [],
+      "mainSourceId": "_seriesId",
+      "mode": 0,
+      "overlayPriceScales": {
+        "iSOfIp": {
+          "alignLabels": true,
+          "hasCalculatedPriceRange": true,
+          "id": "TncaCJocdvsw",
+          "logFormula": {
+            "coordOffset": 0.0001,
+            "logicalOffset": 4
+          },
+          "m_bottomMargin": 0.08,
+          "m_isAutoScale": true,
+          "m_isIndexedTo100": false,
+          "m_isInverted": false,
+          "m_isLockScale": false,
+          "m_isLog": false,
+          "m_isPercentage": false,
+          "m_priceRange": null,
+          "m_topMargin": 0.1
+        }
+      },
+      "priceScaleRatio": null,
+      "rightAxisesState": [
+        {
+          "sources": [
+            "_seriesId",
+            "bG3CWT"
+          ],
+          "state": {
+            "alignLabels": true,
+            "hasCalculatedPriceRange": true,
+            "id": "cjCHQU5vPj79",
+            "logFormula": {
+              "coordOffset": 0.0001,
+              "logicalOffset": 4
+            },
+            "m_bottomMargin": 0.08,
+            "m_isAutoScale": true,
+            "m_isIndexedTo100": false,
+            "m_isInverted": false,
+            "m_isLockScale": false,
+            "m_isLog": false,
+            "m_isPercentage": false,
+            "m_priceRange": null,
+            "m_topMargin": 0.1
+          }
+        }
+      ],
+      "sources": [
+        {
+          "formattingDeps": {
+            "format": "price",
+            "minmov": 1,
+            "pricescale": 100
+          },
+          "haStyle": {
+            "studyId": "BarSetHeikenAshi@tv-basicstudies-60"
+          },
+          "id": "_seriesId",
+          "kagiStyle": {
+            "studyId": "BarSetKagi@tv-prostudies-73"
+          },
+          "pbStyle": {
+            "studyId": "BarSetPriceBreak@tv-prostudies-34"
+          },
+          "pnfStyle": {
+            "studyId": "BarSetPnF@tv-prostudies-73"
+          },
+          "rangeStyle": {
+            "studyId": "BarSetRange@tv-basicstudies-72"
+          },
+          "renkoStyle": {
+            "studyId": "BarSetRenko@tv-prostudies-73"
+          },
+          "state": {
+            "areaStyle": {
+              "color1": "rgba(41, 98, 255, 0.28)",
+              "color2": "#2962FF",
+              "linecolor": "#2962FF",
+              "linestyle": 0,
+              "linewidth": 2,
+              "priceSource": "close",
+              "transparency": 100
+            },
+            "backAdjustment": false,
+            "barStyle": {
+              "barColorsOnPrevClose": false,
+              "dontDrawOpen": false,
+              "downColor": "#F23645",
+              "thinBars": true,
+              "upColor": "#089981"
+            },
+            "baseLineColor": "#636363",
+            "baselineStyle": {
+              "baseLevelPercentage": 50,
+              "baselineColor": "#8C8C8C",
+              "bottomFillColor1": "rgba(242, 54, 69, 0.05)",
+              "bottomFillColor2": "rgba(242, 54, 69, 0.28)",
+              "bottomLineColor": "#F23645",
+              "bottomLineWidth": 2,
+              "priceSource": "close",
+              "topFillColor1": "rgba(8, 153, 129, 0.28)",
+              "topFillColor2": "rgba(8, 153, 129, 0.05)",
+              "topLineColor": "#089981",
+              "topLineWidth": 2,
+              "transparency": 50
+            },
+            "bidAsk": {
+              "askLineColor": "#F7525F",
+              "bidLineColor": "#2962FF",
+              "lineStyle": 1,
+              "lineWidth": 1,
+              "visible": false
+            },
+            "candleStyle": {
+              "barColorsOnPrevClose": false,
+              "borderColor": "#378658",
+              "borderDownColor": "#F23645",
+              "borderUpColor": "#089981",
+              "downColor": "#F23645",
+              "drawBody": true,
+              "drawBorder": true,
+              "drawWick": true,
+              "upColor": "#089981",
+              "wickColor": "#737375",
+              "wickDownColor": "#F23645",
+              "wickUpColor": "#089981"
+            },
+            "columnStyle": {
+              "barColorsOnPrevClose": true,
+              "baselinePosition": "bottom",
+              "downColor": "rgba(242, 54, 69, 0.5)",
+              "priceSource": "close",
+              "upColor": "rgba(8, 153, 129, 0.5)"
+            },
+            "currencyId": null,
+            "dividendsAdjustment": {},
+            "esdFlagSize": 2,
+            "esdShowBreaks": false,
+            "esdShowDividends": true,
+            "esdShowEarnings": true,
+            "esdShowSplits": true,
+            "haStyle": {
+              "barColorsOnPrevClose": false,
+              "borderColor": "#378658",
+              "borderDownColor": "#F23645",
+              "borderUpColor": "#089981",
+              "downColor": "#F23645",
+              "drawBody": true,
+              "drawBorder": true,
+              "drawWick": true,
+              "inputInfo": {},
+              "inputs": {},
+              "showRealLastPrice": false,
+              "upColor": "#089981",
+              "wickColor": "#737375",
+              "wickDownColor": "#F23645",
+              "wickUpColor": "#089981"
+            },
+            "highLowAvgPrice": {
+              "averageClosePriceLabelVisible": false,
+              "averageClosePriceLineVisible": false,
+              "averagePriceLineColor": "",
+              "averagePriceLineWidth": 1,
+              "highLowPriceLabelsVisible": false,
+              "highLowPriceLinesColor": "",
+              "highLowPriceLinesVisible": false,
+              "highLowPriceLinesWidth": 1
+            },
+            "hiloStyle": {
+              "borderColor": "#2962FF",
+              "color": "#2962FF",
+              "drawBody": true,
+              "labelColor": "#2962FF",
+              "showBorders": true,
+              "showLabels": true
+            },
+            "hlcAreaStyle": {
+              "closeLineColor": "#8C8C8C",
+              "closeLineStyle": 0,
+              "closeLineWidth": 2,
+              "closeLowFillColor": "rgba(242, 54, 69, 0.2)",
+              "highCloseFillColor": "rgba(8, 153, 129, 0.2)",
+              "highLineColor": "#089981",
+              "highLineStyle": 0,
+              "highLineWidth": 2,
+              "lowLineColor": "#F23645",
+              "lowLineStyle": 0,
+              "lowLineWidth": 2
+            },
+            "hlcBarsStyle": {
+              "barColorsOnPrevClose": false,
+              "color": "#2962FF",
+              "thinBars": true
+            },
+            "hollowCandleStyle": {
+              "borderColor": "#378658",
+              "borderDownColor": "#F23645",
+              "borderUpColor": "#089981",
+              "downColor": "#F23645",
+              "drawBody": true,
+              "drawBorder": true,
+              "drawWick": true,
+              "upColor": "#089981",
+              "wickColor": "#737375",
+              "wickDownColor": "#F23645",
+              "wickUpColor": "#089981"
+            },
+            "interval": "1D",
+            "kagiStyle": {
+              "downColor": "#F23645",
+              "downColorProjection": "#7f323f",
+              "inputInfo": {
+                "atrLength": {
+                  "name": "ATR length"
+                },
+                "percentageLTP": {
+                  "name": "Percentage"
+                },
+                "reversalAmount": {
+                  "name": "Reversal amount"
+                },
+                "source": {
+                  "name": "Source"
+                },
+                "style": {
+                  "name": "Style"
+                }
+              },
+              "inputs": {
+                "atrLength": 14,
+                "percentageLTP": 1,
+                "reversalAmount": 1,
+                "source": "close",
+                "style": "ATR"
+              },
+              "upColor": "#089981",
+              "upColorProjection": "#336854"
+            },
+            "lineStyle": {
+              "color": "#2962FF",
+              "colorType": "gradient",
+              "gradientEndColor": "#00BCE5",
+              "gradientStartColor": "#D500F9",
+              "linestyle": 0,
+              "linewidth": 2,
+              "priceSource": "close"
+            },
+            "lineWithMarkersStyle": {
+              "color": "#2962FF",
+              "colorType": "gradient",
+              "gradientEndColor": "#00BCE5",
+              "gradientStartColor": "#D500F9",
+              "linestyle": 0,
+              "linewidth": 2,
+              "priceSource": "close"
+            },
+            "minTick": "default",
+            "pbStyle": {
+              "borderDownColor": "#F23645",
+              "borderDownColorProjection": "#7f323f",
+              "borderUpColor": "#089981",
+              "borderUpColorProjection": "#336854",
+              "downColor": "#F23645",
+              "downColorProjection": "#7f323f",
+              "inputInfo": {
+                "lb": {
+                  "name": "Number of line"
+                },
+                "source": {
+                  "name": "Source"
+                }
+              },
+              "inputs": {
+                "lb": 3,
+                "source": "close"
+              },
+              "upColor": "#089981",
+              "upColorProjection": "#336854"
+            },
+            "pnfStyle": {
+              "downColor": "#F23645",
+              "downColorProjection": "#7f323f",
+              "inputInfo": {
+                "atrLength": {
+                  "name": "ATR length"
+                },
+                "boxSize": {
+                  "name": "Box size"
+                },
+                "oneStepBackBuilding": {
+                  "name": "One step back building"
+                },
+                "percentageLTP": {
+                  "name": "Percentage"
+                },
+                "reversalAmount": {
+                  "name": "Reversal amount"
+                },
+                "sources": {
+                  "name": "Source"
+                },
+                "style": {
+                  "name": "Style"
+                }
+              },
+              "inputs": {
+                "atrLength": 14,
+                "boxSize": 1,
+                "oneStepBackBuilding": false,
+                "percentageLTP": 1,
+                "reversalAmount": 3,
+                "sources": "Close",
+                "style": "ATR"
+              },
+              "upColor": "#089981",
+              "upColorProjection": "#336854"
+            },
+            "prePostMarket": {
+              "lineStyle": 1,
+              "lineWidth": 1,
+              "postMarketColor": "#2962FF",
+              "preMarketColor": "#FB8C00",
+              "visible": true
+            },
+            "prevClosePriceLineColor": "#555555",
+            "prevClosePriceLineWidth": 1,
+            "priceAxisProperties": {
+              "alignLabels": true,
+              "autoScale": true,
+              "autoScaleDisabled": false,
+              "indexedTo100": false,
+              "isInverted": false,
+              "lockScale": false,
+              "log": false,
+              "logDisabled": false,
+              "percentage": false,
+              "percentageDisabled": false
+            },
+            "priceLineColor": "",
+            "priceLineWidth": 1,
+            "rangeStyle": {
+              "barStyle": 0,
+              "candlesBorderDownColor": "#F23645",
+              "candlesBorderUpColor": "#089981",
+              "candlesDownColor": "#F23645",
+              "candlesUpColor": "#089981",
+              "candlesWickDownColor": "#F23645",
+              "candlesWickUpColor": "#089981",
+              "downColor": "#F23645",
+              "downColorProjection": "#7f323f",
+              "inputInfo": {
+                "phantomBars": {
+                  "name": "Phantom bars"
+                },
+                "range": {
+                  "name": "Range"
+                }
+              },
+              "inputs": {
+                "phantomBars": false,
+                "range": 10
+              },
+              "thinBars": true,
+              "upColor": "#089981",
+              "upColorProjection": "#336854"
+            },
+            "renkoStyle": {
+              "borderDownColor": "#F23645",
+              "borderDownColorProjection": "#7f323f",
+              "borderUpColor": "#089981",
+              "borderUpColorProjection": "#336854",
+              "downColor": "#F23645",
+              "downColorProjection": "#7f323f",
+              "inputInfo": {
+                "atrLength": {
+                  "name": "ATR length"
+                },
+                "boxSize": {
+                  "name": "Box size"
+                },
+                "percentageLTP": {
+                  "name": "Percentage"
+                },
+                "source": {
+                  "name": "Source"
+                },
+                "sources": {
+                  "name": "Source"
+                },
+                "style": {
+                  "name": "Style"
+                },
+                "wicks": {
+                  "name": "Wicks"
+                }
+              },
+              "inputs": {
+                "atrLength": 14,
+                "boxSize": 3,
+                "percentageLTP": 1,
+                "source": "close",
+                "sources": "Close",
+                "style": "ATR",
+                "wicks": true
+              },
+              "upColor": "#089981",
+              "upColorProjection": "#336854",
+              "wickDownColor": "#F23645",
+              "wickUpColor": "#089981"
+            },
+            "sessVis": false,
+            "sessionId": "regular",
+            "settlementAsClose": true,
+            "shortName": "NIFTY",
+            "showContinuousContractSwitches": true,
+            "showContinuousContractSwitchesBreaks": false,
+            "showCountdown": false,
+            "showFuturesContractExpiration": true,
+            "showLastNews": true,
+            "showPrevClosePriceLine": false,
+            "showPriceLine": true,
+            "statusViewStyle": {
+              "fontSize": 16,
+              "showExchange": true,
+              "showInterval": true,
+              "symbolTextSource": "description"
+            },
+            "steplineStyle": {
+              "color": "#2962FF",
+              "colorType": "gradient",
+              "gradientEndColor": "#00BCE5",
+              "gradientStartColor": "#D500F9",
+              "linestyle": 0,
+              "linewidth": 2,
+              "priceSource": "close"
+            },
+            "style": 1,
+            "svpStyle": {},
+            "symbol": "NIFTY",
+            "timeframe": "",
+            "tpoStyle": {},
+            "unitId": null,
+            "visible": true,
+            "volCandlesStyle": {
+              "barColorsOnPrevClose": false,
+              "borderColor": "#378658",
+              "borderDownColor": "#F23645",
+              "borderUpColor": "#089981",
+              "downColor": "#F23645",
+              "drawBody": true,
+              "drawBorder": true,
+              "drawWick": true,
+              "upColor": "#089981",
+              "wickColor": "#737375",
+              "wickDownColor": "#F23645",
+              "wickUpColor": "#089981"
+            },
+            "volFootprintStyle": {}
+          },
+          "svpStyle": {
+            "studyId": "VbPSessions@tv-volumebyprice-126"
+          },
+          "tpoStyle": {
+            "studyId": "TPOPeriodic@tv-volumebyprice-104"
+          },
+          "type": "MainSeries",
+          "volFootprintStyle": {
+            "studyId": "Footprint@tv-volumebyprice-104"
+          },
+          "zorder": 0
+        },
+        {
+          "id": "iSOfIp",
+          "metaInfo": {
+            "_metainfoVersion": 53,
+            "_serverMetaInfoVersion": 52,
+            "defaults": {
+              "inputs": {
+                "col_prev_close": false,
+                "length": 20,
+                "showMA": false,
+                "smoothingLength": 9,
+                "smoothingLine": "SMA",
+                "symbol": "",
+                "volumeMA": "SMA"
+              },
+              "palettes": {
+                "volumePalette": {
+                  "colors": {
+                    "0": {
+                      "color": "#F7525F",
+                      "style": 0,
+                      "width": 1
+                    },
+                    "1": {
+                      "color": "#22AB94",
+                      "style": 0,
+                      "width": 1
+                    }
+                  }
+                }
+              },
+              "styles": {
+                "smoothedMA": {
+                  "color": "#2196F3",
+                  "display": 0,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 0,
+                  "trackPrice": false,
+                  "transparency": 0
+                },
+                "vol": {
+                  "color": "#000080",
+                  "display": 15,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 5,
+                  "trackPrice": false,
+                  "transparency": 50
+                },
+                "vol_ma": {
+                  "color": "#2196F3",
+                  "display": 0,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 0,
+                  "trackPrice": false,
+                  "transparency": 0
+                }
+              }
+            },
+            "description": "Volume",
+            "description_localized": "Volume",
+            "format": {
+              "type": "volume"
+            },
+            "fullId": "Volume@tv-basicstudies-1",
+            "graphics": {},
+            "id": "Volume@tv-basicstudies-1",
+            "inputs": [
+              {
+                "defval": "",
+                "display": 15,
+                "id": "symbol",
+                "isHidden": false,
+                "name": "Other Symbol",
+                "optional": true,
+                "type": "symbol"
+              },
+              {
+                "defval": false,
+                "display": 0,
+                "id": "showMA",
+                "isHidden": true,
+                "name": "show MA",
+                "type": "bool"
+              },
+              {
+                "defval": 20,
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "vol_ma"
+                ],
+                "id": "length",
+                "max": 2000,
+                "min": 1,
+                "name": "MA Length",
+                "type": "integer"
+              },
+              {
+                "defval": "SMA",
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "vol_ma"
+                ],
+                "id": "volumeMA",
+                "name": "Volume MA",
+                "options": [
+                  "SMA",
+                  "EMA",
+                  "WMA"
+                ],
+                "type": "text"
+              },
+              {
+                "defval": false,
+                "display": 0,
+                "id": "col_prev_close",
+                "name": "Color based on previous close",
+                "type": "bool"
+              },
+              {
+                "defval": "SMA",
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "smoothedMA"
+                ],
+                "id": "smoothingLine",
+                "name": "Smoothing Line",
+                "options": [
+                  "SMA",
+                  "EMA",
+                  "WMA"
+                ],
+                "type": "text"
+              },
+              {
+                "defval": 9,
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "smoothedMA"
+                ],
+                "id": "smoothingLength",
+                "max": 10000,
+                "min": 1,
+                "name": "Smoothing Length",
+                "type": "integer"
+              }
+            ],
+            "isTVScript": false,
+            "isTVScriptStub": false,
+            "is_hidden_study": false,
+            "is_price_study": false,
+            "packageId": "tv-basicstudies",
+            "palettes": {
+              "volumePalette": {
+                "colors": {
+                  "0": {
+                    "name": "Falling"
+                  },
+                  "1": {
+                    "name": "Growing"
+                  }
+                }
+              }
+            },
+            "plots": [
+              {
+                "id": "vol",
+                "type": "line"
+              },
+              {
+                "id": "volumePalette",
+                "palette": "volumePalette",
+                "target": "vol",
+                "type": "colorer"
+              },
+              {
+                "id": "vol_ma",
+                "type": "line"
+              },
+              {
+                "id": "smoothedMA",
+                "type": "line"
+              }
+            ],
+            "productId": "tv-basicstudies",
+            "shortDescription": "Volume",
+            "shortId": "Volume",
+            "styles": {
+              "smoothedMA": {
+                "histogramBase": 0,
+                "title": "Smoothed MA"
+              },
+              "vol": {
+                "histogramBase": 0,
+                "title": "Volume"
+              },
+              "vol_ma": {
+                "histogramBase": 0,
+                "title": "Volume MA"
+              }
+            },
+            "version": 1
+          },
+          "ownFirstValue": null,
+          "state": {
+            "bands": {},
+            "filledAreas": {},
+            "filledAreasStyle": {},
+            "graphics": {},
+            "inputs": {
+              "col_prev_close": false,
+              "length": 20,
+              "showMA": false,
+              "smoothingLength": 9,
+              "smoothingLine": "SMA",
+              "symbol": "",
+              "volumeMA": "SMA"
+            },
+            "intervalsVisibilities": {
+              "days": true,
+              "daysFrom": 1,
+              "daysTo": 366,
+              "hours": true,
+              "hoursFrom": 1,
+              "hoursTo": 24,
+              "minutes": true,
+              "minutesFrom": 1,
+              "minutesTo": 59,
+              "months": true,
+              "monthsFrom": 1,
+              "monthsTo": 12,
+              "ranges": true,
+              "seconds": true,
+              "secondsFrom": 1,
+              "secondsTo": 59,
+              "ticks": true,
+              "weeks": true,
+              "weeksFrom": 1,
+              "weeksTo": 52
+            },
+            "ohlcPlots": {},
+            "palettes": {
+              "volumePalette": {
+                "colors": {
+                  "0": {
+                    "color": "#F7525F",
+                    "style": 0,
+                    "width": 1
+                  },
+                  "1": {
+                    "color": "#22AB94",
+                    "style": 0,
+                    "width": 1
+                  }
+                }
+              }
+            },
+            "parentSources": [],
+            "precision": "default",
+            "showLabelsOnPriceScale": true,
+            "showLegendValues": true,
+            "styles": {
+              "smoothedMA": {
+                "color": "#2196f3",
+                "display": 0,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 0,
+                "title": "smoothedMA",
+                "trackPrice": false,
+                "transparency": 0
+              },
+              "vol": {
+                "color": "#000080",
+                "display": 15,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 5,
+                "title": "vol",
+                "trackPrice": false,
+                "transparency": 50
+              },
+              "vol_ma": {
+                "color": "#2196f3",
+                "display": 0,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 0,
+                "title": "vol_ma",
+                "trackPrice": false,
+                "transparency": 0
+              }
+            },
+            "visible": true
+          },
+          "type": "study_Volume",
+          "zorder": -10000
+        },
+        {
+          "id": "bG3CWT",
+          "metaInfo": {
+            "_metainfoVersion": 53,
+            "_serverMetaInfoVersion": 52,
+            "defaults": {
+              "inputs": {
+                "fifthPeriods": 100,
+                "firstPeriods": 14,
+                "fourthPeriods": 50,
+                "method": "Simple",
+                "secondPeriods": 21,
+                "sixthPeriods": 200,
+                "symbol": "",
+                "thirdPeriods": 35
+              },
+              "styles": {
+                "plot_0": {
+                  "color": "#9C27B0",
+                  "display": 15,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 0,
+                  "trackPrice": false,
+                  "transparency": 0
+                },
+                "plot_1": {
+                  "color": "#FF6D00",
+                  "display": 15,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 0,
+                  "trackPrice": false,
+                  "transparency": 0
+                },
+                "plot_2": {
+                  "color": "#43A047",
+                  "display": 15,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 0,
+                  "trackPrice": false,
+                  "transparency": 0
+                },
+                "plot_3": {
+                  "color": "#26C6DA",
+                  "display": 15,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 0,
+                  "trackPrice": false,
+                  "transparency": 0
+                },
+                "plot_4": {
+                  "color": "#F50057",
+                  "display": 15,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 0,
+                  "trackPrice": false,
+                  "transparency": 0
+                },
+                "plot_5": {
+                  "color": "#2196F3",
+                  "display": 15,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 0,
+                  "trackPrice": false,
+                  "transparency": 0
+                }
+              }
+            },
+            "description": "Moving Average Multiple",
+            "description_localized": "Moving Average Multiple",
+            "format": {
+              "type": "inherit"
+            },
+            "fullId": "Moving Average Multiple@tv-basicstudies-1",
+            "graphics": {},
+            "id": "Moving Average Multiple@tv-basicstudies-1",
+            "inputs": [
+              {
+                "defval": "",
+                "display": 15,
+                "id": "symbol",
+                "isHidden": false,
+                "name": "Other Symbol",
+                "optional": true,
+                "type": "symbol"
+              },
+              {
+                "defval": 14,
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "plot_0"
+                ],
+                "id": "firstPeriods",
+                "max": 10000,
+                "min": 1,
+                "name": "1st Period",
+                "type": "integer"
+              },
+              {
+                "defval": 21,
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "plot_1"
+                ],
+                "id": "secondPeriods",
+                "max": 10000,
+                "min": 1,
+                "name": "2nd Period",
+                "type": "integer"
+              },
+              {
+                "defval": 35,
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "plot_2"
+                ],
+                "id": "thirdPeriods",
+                "max": 10000,
+                "min": 1,
+                "name": "3rd Period",
+                "type": "integer"
+              },
+              {
+                "defval": 50,
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "plot_3"
+                ],
+                "id": "fourthPeriods",
+                "max": 10000,
+                "min": 1,
+                "name": "4th Period",
+                "type": "integer"
+              },
+              {
+                "defval": 100,
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "plot_4"
+                ],
+                "id": "fifthPeriods",
+                "max": 10000,
+                "min": 1,
+                "name": "5th Period",
+                "type": "integer"
+              },
+              {
+                "defval": 200,
+                "display": 15,
+                "hideWhenPlotsHidden": [
+                  "plot_5"
+                ],
+                "id": "sixthPeriods",
+                "max": 10000,
+                "min": 1,
+                "name": "6th Period",
+                "type": "integer"
+              },
+              {
+                "defval": "Simple",
+                "display": 15,
+                "id": "method",
+                "name": "Method",
+                "options": [
+                  "Simple",
+                  "Exponential",
+                  "Weighted"
+                ],
+                "type": "text"
+              }
+            ],
+            "isTVScript": false,
+            "isTVScriptStub": false,
+            "is_hidden_study": false,
+            "is_price_study": true,
+            "name": "Moving Average Multiple",
+            "packageId": "tv-basicstudies",
+            "palettes": {},
+            "plots": [
+              {
+                "id": "plot_0",
+                "type": "line"
+              },
+              {
+                "id": "plot_1",
+                "type": "line"
+              },
+              {
+                "id": "plot_2",
+                "type": "line"
+              },
+              {
+                "id": "plot_3",
+                "type": "line"
+              },
+              {
+                "id": "plot_4",
+                "type": "line"
+              },
+              {
+                "id": "plot_5",
+                "type": "line"
+              }
+            ],
+            "productId": "tv-basicstudies",
+            "scriptIdPart": "",
+            "shortDescription": "Moving Average Multiple",
+            "shortId": "Moving Average Multiple",
+            "styles": {
+              "plot_0": {
+                "title": "Plot 1"
+              },
+              "plot_1": {
+                "title": "Plot 2"
+              },
+              "plot_2": {
+                "title": "Plot 3"
+              },
+              "plot_3": {
+                "title": "Plot 4"
+              },
+              "plot_4": {
+                "title": "Plot 5"
+              },
+              "plot_5": {
+                "title": "Plot 6"
+              }
+            },
+            "version": 1
+          },
+          "ownFirstValue": null,
+          "state": {
+            "bands": {},
+            "filledAreas": {},
+            "filledAreasStyle": {},
+            "graphics": {},
+            "inputs": {
+              "fifthPeriods": 100,
+              "firstPeriods": 14,
+              "fourthPeriods": 50,
+              "method": "Simple",
+              "secondPeriods": 21,
+              "sixthPeriods": 200,
+              "symbol": "",
+              "thirdPeriods": 35
+            },
+            "intervalsVisibilities": {
+              "days": true,
+              "daysFrom": 1,
+              "daysTo": 366,
+              "hours": true,
+              "hoursFrom": 1,
+              "hoursTo": 24,
+              "minutes": true,
+              "minutesFrom": 1,
+              "minutesTo": 59,
+              "months": true,
+              "monthsFrom": 1,
+              "monthsTo": 12,
+              "ranges": true,
+              "seconds": true,
+              "secondsFrom": 1,
+              "secondsTo": 59,
+              "ticks": true,
+              "weeks": true,
+              "weeksFrom": 1,
+              "weeksTo": 52
+            },
+            "ohlcPlots": {},
+            "palettes": {},
+            "parentSources": [],
+            "precision": "default",
+            "showLabelsOnPriceScale": true,
+            "showLegendValues": true,
+            "styles": {
+              "plot_0": {
+                "color": "#9c27b0",
+                "display": 15,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 0,
+                "title": "plot_0",
+                "trackPrice": false,
+                "transparency": 0
+              },
+              "plot_1": {
+                "color": "#ff6d00",
+                "display": 15,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 0,
+                "title": "plot_1",
+                "trackPrice": false,
+                "transparency": 0
+              },
+              "plot_2": {
+                "color": "#43a047",
+                "display": 15,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 0,
+                "title": "plot_2",
+                "trackPrice": false,
+                "transparency": 0
+              },
+              "plot_3": {
+                "color": "#26c6da",
+                "display": 15,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 0,
+                "title": "plot_3",
+                "trackPrice": false,
+                "transparency": 0
+              },
+              "plot_4": {
+                "color": "#f50057",
+                "display": 15,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 0,
+                "title": "plot_4",
+                "trackPrice": false,
+                "transparency": 0
+              },
+              "plot_5": {
+                "color": "#2196f3",
+                "display": 15,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 0,
+                "title": "plot_5",
+                "trackPrice": false,
+                "transparency": 0
+              }
+            },
+            "visible": true
+          },
+          "type": "Study",
+          "zorder": -20000
+        }
+      ],
+      "stretchFactor": 2000
+    },
+    {
+      "isCollapsed": false,
+      "isMaximized": false,
+      "leftAxisesState": [],
+      "mainSourceId": "sxOs81",
+      "mode": 0,
+      "overlayPriceScales": {},
+      "priceScaleRatio": null,
+      "rightAxisesState": [
+        {
+          "sources": [
+            "sxOs81"
+          ],
+          "state": {
+            "alignLabels": true,
+            "hasCalculatedPriceRange": true,
+            "id": "vyXTWnlsOEN5",
+            "logFormula": {
+              "coordOffset": 0.0001,
+              "logicalOffset": 4
+            },
+            "m_bottomMargin": 0.08,
+            "m_isAutoScale": true,
+            "m_isIndexedTo100": false,
+            "m_isInverted": false,
+            "m_isLockScale": false,
+            "m_isLog": false,
+            "m_isPercentage": false,
+            "m_priceRange": null,
+            "m_topMargin": 0.1
+          }
+        }
+      ],
+      "sources": [
+        {
+          "id": "sxOs81",
+          "metaInfo": {
+            "_metainfoVersion": 53,
+            "_serverMetaInfoVersion": 52,
+            "defaults": {
+              "inputs": {},
+              "palettes": {
+                "palette_0": {
+                  "colors": {
+                    "0": {
+                      "color": "#F23645",
+                      "style": 0,
+                      "width": 1
+                    },
+                    "1": {
+                      "color": "#089981",
+                      "style": 0,
+                      "width": 1
+                    }
+                  }
+                }
+              },
+              "styles": {
+                "plot_0": {
+                  "color": "#000080",
+                  "display": 15,
+                  "linestyle": 0,
+                  "linewidth": 1,
+                  "plottype": 1,
+                  "trackPrice": false,
+                  "transparency": 0
+                }
+              }
+            },
+            "description": "Accelerator Oscillator",
+            "description_localized": "Accelerator Oscillator",
+            "format": {
+              "type": "inherit"
+            },
+            "fullId": "Accelerator Oscillator@tv-basicstudies-1",
+            "graphics": {},
+            "id": "Accelerator Oscillator@tv-basicstudies-1",
+            "inputs": [],
+            "isTVScript": false,
+            "isTVScriptStub": false,
+            "is_hidden_study": false,
+            "is_price_study": false,
+            "name": "Accelerator Oscillator",
+            "packageId": "tv-basicstudies",
+            "palettes": {
+              "palette_0": {
+                "colors": {
+                  "0": {
+                    "name": "Color 0"
+                  },
+                  "1": {
+                    "name": "Color 1"
+                  }
+                }
+              }
+            },
+            "plots": [
+              {
+                "id": "plot_0",
+                "type": "line"
+              },
+              {
+                "id": "plot_1",
+                "palette": "palette_0",
+                "target": "plot_0",
+                "type": "colorer"
+              }
+            ],
+            "productId": "tv-basicstudies",
+            "scriptIdPart": "",
+            "shortDescription": "AO",
+            "shortId": "Accelerator Oscillator",
+            "styles": {
+              "plot_0": {
+                "histogramBase": 0,
+                "joinPoints": false,
+                "title": "Plot"
+              }
+            },
+            "version": 1
+          },
+          "ownFirstValue": null,
+          "state": {
+            "bands": {},
+            "filledAreas": {},
+            "filledAreasStyle": {},
+            "graphics": {},
+            "inputs": {},
+            "intervalsVisibilities": {
+              "days": true,
+              "daysFrom": 1,
+              "daysTo": 366,
+              "hours": true,
+              "hoursFrom": 1,
+              "hoursTo": 24,
+              "minutes": true,
+              "minutesFrom": 1,
+              "minutesTo": 59,
+              "months": true,
+              "monthsFrom": 1,
+              "monthsTo": 12,
+              "ranges": true,
+              "seconds": true,
+              "secondsFrom": 1,
+              "secondsTo": 59,
+              "ticks": true,
+              "weeks": true,
+              "weeksFrom": 1,
+              "weeksTo": 52
+            },
+            "ohlcPlots": {},
+            "palettes": {
+              "palette_0": {
+                "colors": {
+                  "0": {
+                    "color": "#F23645",
+                    "style": 0,
+                    "width": 1
+                  },
+                  "1": {
+                    "color": "#089981",
+                    "style": 0,
+                    "width": 1
+                  }
+                }
+              }
+            },
+            "parentSources": [],
+            "precision": "default",
+            "showLabelsOnPriceScale": true,
+            "showLegendValues": true,
+            "styles": {
+              "plot_0": {
+                "color": "#000080",
+                "display": 15,
+                "linestyle": 0,
+                "linewidth": 1,
+                "plottype": 1,
+                "title": "plot_0",
+                "trackPrice": false,
+                "transparency": 0
+              }
+            },
+            "visible": true
+          },
+          "type": "Study",
+          "zorder": -10000
+        }
+      ],
+      "stretchFactor": 1000
+    }
+  ],
+  "version": 3
+}

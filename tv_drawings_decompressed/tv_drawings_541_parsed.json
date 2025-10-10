@@ -1,0 +1,60 @@
+{
+  "currencyId": null,
+  "id": "D4muV0",
+  "ownerSource": "_seriesId",
+  "state": {
+    "id": "D4muV0",
+    "isSelectionEnabled": true,
+    "linkKey": "oxa6ijn42Exr",
+    "ownerSource": "_seriesId",
+    "points": [
+      {
+        "interval": "1D",
+        "offset": 0,
+        "price": 25053.113014791183,
+        "time_t": 1742960700
+      }
+    ],
+    "state": {
+      "angle": 1.5707963267948966,
+      "currencyId": null,
+      "emoji": "\ud83d\ude00",
+      "frozen": false,
+      "interval": "1D",
+      "intervalsVisibilities": {
+        "days": true,
+        "daysFrom": 1,
+        "daysTo": 366,
+        "hours": true,
+        "hoursFrom": 1,
+        "hoursTo": 24,
+        "minutes": true,
+        "minutesFrom": 1,
+        "minutesTo": 59,
+        "months": true,
+        "monthsFrom": 1,
+        "monthsTo": 12,
+        "ranges": true,
+        "seconds": true,
+        "secondsFrom": 1,
+        "secondsTo": 59,
+        "ticks": true,
+        "weeks": true,
+        "weeksFrom": 1,
+        "weeksTo": 52
+      },
+      "size": 40,
+      "symbol": "NIFTY",
+      "symbolStateVersion": 2,
+      "title": "",
+      "unitId": null,
+      "visible": true,
+      "zOrderVersion": 2
+    },
+    "type": "LineToolEmoji",
+    "userEditEnabled": true,
+    "zorder": -11250
+  },
+  "symbol": "NIFTY",
+  "unitId": null
+}

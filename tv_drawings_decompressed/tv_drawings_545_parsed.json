@@ -1,0 +1,233 @@
+{
+  "currencyId": null,
+  "id": "vKawQp",
+  "ownerSource": "_seriesId",
+  "state": {
+    "id": "vKawQp",
+    "isSelectionEnabled": true,
+    "linkKey": "hZHmvBnpWQ8U",
+    "ownerSource": "_seriesId",
+    "points": [
+      {
+        "interval": "1D",
+        "offset": 0,
+        "price": 23978.612035962877,
+        "time_t": 1756784700
+      },
+      {
+        "interval": "1D",
+        "offset": 40,
+        "price": 25088.69251740139,
+        "time_t": 1759981500
+      }
+    ],
+    "state": {
+      "coeffsAsPercents": false,
+      "currencyId": null,
+      "extendLines": false,
+      "extendLinesLeft": false,
+      "fibLevelsBasedOnLogScale": false,
+      "fillBackground": true,
+      "frozen": false,
+      "horzLabelsAlign": "left",
+      "horzTextAlign": "center",
+      "interval": "1D",
+      "intervalsVisibilities": {
+        "days": true,
+        "daysFrom": 1,
+        "daysTo": 366,
+        "hours": true,
+        "hoursFrom": 1,
+        "hoursTo": 24,
+        "minutes": true,
+        "minutesFrom": 1,
+        "minutesTo": 59,
+        "months": true,
+        "monthsFrom": 1,
+        "monthsTo": 12,
+        "ranges": true,
+        "seconds": true,
+        "secondsFrom": 1,
+        "secondsTo": 59,
+        "ticks": true,
+        "weeks": true,
+        "weeksFrom": 1,
+        "weeksTo": 52
+      },
+      "labelFontSize": 12,
+      "level1": [
+        0,
+        "#808080",
+        true,
+        ""
+      ],
+      "level10": [
+        3.618,
+        "#9c27b0",
+        true,
+        ""
+      ],
+      "level11": [
+        4.236,
+        "#e91e63",
+        true,
+        ""
+      ],
+      "level12": [
+        1.272,
+        "#FF9800",
+        false,
+        ""
+      ],
+      "level13": [
+        1.414,
+        "#F23645",
+        false,
+        ""
+      ],
+      "level14": [
+        2.272,
+        "#FF9800",
+        false,
+        ""
+      ],
+      "level15": [
+        2.414,
+        "#4caf50",
+        false,
+        ""
+      ],
+      "level16": [
+        2,
+        "#089981",
+        false,
+        ""
+      ],
+      "level17": [
+        3,
+        "#00bcd4",
+        false,
+        ""
+      ],
+      "level18": [
+        3.272,
+        "#808080",
+        false,
+        ""
+      ],
+      "level19": [
+        3.414,
+        "#2962FF",
+        false,
+        ""
+      ],
+      "level2": [
+        0.236,
+        "#F23645",
+        true,
+        ""
+      ],
+      "level20": [
+        4,
+        "#F23645",
+        false,
+        ""
+      ],
+      "level21": [
+        4.272,
+        "#9c27b0",
+        false,
+        ""
+      ],
+      "level22": [
+        4.414,
+        "#e91e63",
+        false,
+        ""
+      ],
+      "level23": [
+        4.618,
+        "#FF9800",
+        false,
+        ""
+      ],
+      "level24": [
+        4.764,
+        "#089981",
+        false,
+        ""
+      ],
+      "level3": [
+        0.382,
+        "#FF9800",
+        true,
+        ""
+      ],
+      "level4": [
+        0.5,
+        "#4caf50",
+        true,
+        ""
+      ],
+      "level5": [
+        0.618,
+        "#089981",
+        true,
+        ""
+      ],
+      "level6": [
+        0.786,
+        "#00bcd4",
+        true,
+        ""
+      ],
+      "level7": [
+        1,
+        "#808080",
+        true,
+        ""
+      ],
+      "level8": [
+        1.618,
+        "#2962FF",
+        true,
+        ""
+      ],
+      "level9": [
+        2.618,
+        "#F23645",
+        true,
+        ""
+      ],
+      "levelsStyle": {
+        "linestyle": 0,
+        "linewidth": 2
+      },
+      "reverse": false,
+      "showCoeffs": true,
+      "showPrices": true,
+      "showText": true,
+      "symbol": "NIFTY",
+      "symbolStateVersion": 2,
+      "title": "",
+      "transparency": 80,
+      "trendline": {
+        "color": "#808080",
+        "linestyle": 2,
+        "linewidth": 2,
+        "visible": true
+      },
+      "unitId": null,
+      "vertLabelsAlign": "middle",
+      "vertTextAlign": "middle",
+      "visible": true,
+      "zOrderVersion": 2
+    },
+    "type": "LineToolFibRetracement",
+    "userEditEnabled": true,
+    "version": 2,
+    "zorder": -10157
+  },
+  "symbol": "NIFTY",
+  "unitId": null
+}

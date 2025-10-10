@@ -1,0 +1,455 @@
+{
+  "currencyId": null,
+  "id": "AkVM7B",
+  "ownerSource": "_seriesId",
+  "state": {
+    "id": "AkVM7B",
+    "isSelectionEnabled": true,
+    "linkKey": "MfkAOAtEWVcl",
+    "metaInfo": {
+      "_metainfoVersion": 53,
+      "_serverMetaInfoVersion": 51,
+      "area": [
+        {
+          "name": "UpperBand",
+          "visible": true
+        },
+        {
+          "name": "LowerBand",
+          "visible": true
+        }
+      ],
+      "defaults": {
+        "areaBackground": {
+          "backgroundColor": "#4caf50",
+          "fillBackground": true,
+          "transparency": 95
+        },
+        "filledAreasStyle": {
+          "Background_1": {
+            "color": "#4caf50",
+            "transparency": 95,
+            "visible": true
+          }
+        },
+        "inputs": {
+          "Bands Calculation Mode": "Standard Deviation",
+          "bands_multiplier": 1,
+          "bands_multiplier_2": 2,
+          "bands_multiplier_3": 3,
+          "calculate_stDev": true,
+          "calculate_stDev_2": false,
+          "calculate_stDev_3": false,
+          "source": "hlc3",
+          "start_time": 0
+        },
+        "styles": {
+          "LowerBand": {
+            "color": "#4caf50",
+            "display": 15,
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0
+          },
+          "LowerBand_2": {
+            "color": "#808000",
+            "display": 15,
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0
+          },
+          "LowerBand_3": {
+            "color": "#00897b",
+            "display": 15,
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0
+          },
+          "UpperBand": {
+            "color": "#4caf50",
+            "display": 15,
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0
+          },
+          "UpperBand_2": {
+            "color": "#808000",
+            "display": 15,
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0
+          },
+          "UpperBand_3": {
+            "color": "#00897b",
+            "display": 15,
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0
+          },
+          "VWAP": {
+            "color": "#1e88e5",
+            "display": 15,
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0
+          }
+        }
+      },
+      "description": "Anchored VWAP",
+      "description_localized": "Anchored VWAP",
+      "filledAreas": [
+        {
+          "id": "Background_1",
+          "objAId": "UpperBand",
+          "objBId": "LowerBand",
+          "title": "Background #1",
+          "type": "plot_plot"
+        }
+      ],
+      "format": {
+        "type": "inherit"
+      },
+      "fullId": "AnchoredVWAP@tv-basicstudies-1",
+      "graphics": {},
+      "id": "AnchoredVWAP@tv-basicstudies-1",
+      "inputs": [
+        {
+          "defval": 0,
+          "display": 0,
+          "id": "start_time",
+          "isHidden": true,
+          "max": 9007199254740991,
+          "min": -9007199254740991,
+          "name": "Start time",
+          "type": "time"
+        },
+        {
+          "defval": "Standard Deviation",
+          "display": 15,
+          "group": "Bands Settings",
+          "id": "Bands Calculation Mode",
+          "name": "Bands Calculation Mode",
+          "options": [
+            "Standard Deviation",
+            "Percentage"
+          ],
+          "tooltip": "Determines the units used to calculate the distance of the bands. When 'Percentage' is selected, a multiplier of 1 means 1%.",
+          "type": "text"
+        },
+        {
+          "defval": true,
+          "display": 0,
+          "group": "Bands Settings",
+          "id": "calculate_stDev",
+          "inline": "band_1",
+          "name": " ",
+          "type": "bool"
+        },
+        {
+          "defval": 1,
+          "display": 15,
+          "group": "Bands Settings",
+          "id": "bands_multiplier",
+          "inline": "band_1",
+          "max": 1.7976931348623157e+308,
+          "min": 0,
+          "name": "Bands Multiplier #1",
+          "step": 0.5,
+          "type": "float"
+        },
+        {
+          "defval": false,
+          "display": 0,
+          "group": "Bands Settings",
+          "id": "calculate_stDev_2",
+          "inline": "band_2",
+          "name": " ",
+          "type": "bool"
+        },
+        {
+          "defval": 2,
+          "display": 15,
+          "group": "Bands Settings",
+          "id": "bands_multiplier_2",
+          "inline": "band_2",
+          "max": 1.7976931348623157e+308,
+          "min": 0,
+          "name": "Bands Multiplier #2",
+          "step": 0.5,
+          "type": "float"
+        },
+        {
+          "defval": false,
+          "display": 0,
+          "group": "Bands Settings",
+          "id": "calculate_stDev_3",
+          "inline": "band_3",
+          "name": " ",
+          "type": "bool"
+        },
+        {
+          "defval": 3,
+          "display": 15,
+          "group": "Bands Settings",
+          "id": "bands_multiplier_3",
+          "inline": "band_3",
+          "max": 1.7976931348623157e+308,
+          "min": 0,
+          "name": "Bands Multiplier #3",
+          "step": 0.5,
+          "type": "float"
+        },
+        {
+          "defval": "hlc3",
+          "display": 15,
+          "id": "source",
+          "name": "Source",
+          "options": [
+            "open",
+            "high",
+            "low",
+            "close",
+            "hl2",
+            "hlc3",
+            "ohlc4"
+          ],
+          "type": "source"
+        }
+      ],
+      "is_hidden_study": true,
+      "is_price_study": true,
+      "packageId": "tv-basicstudies",
+      "palettes": {},
+      "plots": [
+        {
+          "id": "VWAP",
+          "type": "line"
+        },
+        {
+          "id": "UpperBand",
+          "type": "line"
+        },
+        {
+          "id": "LowerBand",
+          "type": "line"
+        },
+        {
+          "id": "UpperBand_2",
+          "type": "line"
+        },
+        {
+          "id": "LowerBand_2",
+          "type": "line"
+        },
+        {
+          "id": "UpperBand_3",
+          "type": "line"
+        },
+        {
+          "id": "LowerBand_3",
+          "type": "line"
+        }
+      ],
+      "productId": "tv-basicstudies",
+      "shortDescription": "Anchored VWAP",
+      "shortId": "AnchoredVWAP",
+      "styles": {
+        "LowerBand": {
+          "histogramBase": 0,
+          "title": "Lower Band #1"
+        },
+        "LowerBand_2": {
+          "histogramBase": 0,
+          "title": "Lower Band #2"
+        },
+        "LowerBand_3": {
+          "histogramBase": 0,
+          "title": "Lower Band #3"
+        },
+        "UpperBand": {
+          "histogramBase": 0,
+          "title": "Upper Band #1"
+        },
+        "UpperBand_2": {
+          "histogramBase": 0,
+          "title": "Upper Band #2"
+        },
+        "UpperBand_3": {
+          "histogramBase": 0,
+          "title": "Upper Band #3"
+        },
+        "VWAP": {
+          "histogramBase": 0,
+          "title": "VWAP"
+        }
+      },
+      "version": 1
+    },
+    "ownerSource": "_seriesId",
+    "points": [
+      {
+        "interval": "1D",
+        "offset": 0,
+        "price": 24291.711658932712,
+        "time_t": 1748403900
+      }
+    ],
+    "state": {
+      "areaBackground": {
+        "backgroundColor": "#4caf50",
+        "fillBackground": true,
+        "transparency": 95
+      },
+      "axisLabelVisible": true,
+      "bands": {},
+      "currencyId": null,
+      "filledAreas": {},
+      "filledAreasStyle": {
+        "Background_1": {
+          "color": "#4caf50",
+          "fillType": {},
+          "transparency": 95,
+          "visible": true
+        }
+      },
+      "frozen": false,
+      "graphics": {},
+      "inputs": {
+        "Bands Calculation Mode": "Standard Deviation",
+        "bands_multiplier": 1,
+        "bands_multiplier_2": 2,
+        "bands_multiplier_3": 3,
+        "calculate_stDev": true,
+        "calculate_stDev_2": false,
+        "calculate_stDev_3": false,
+        "source": "hlc3",
+        "start_time": 0
+      },
+      "interval": "1D",
+      "intervalsVisibilities": {
+        "days": true,
+        "daysFrom": 1,
+        "daysTo": 366,
+        "hours": true,
+        "hoursFrom": 1,
+        "hoursTo": 24,
+        "minutes": true,
+        "minutesFrom": 1,
+        "minutesTo": 59,
+        "months": true,
+        "monthsFrom": 1,
+        "monthsTo": 12,
+        "ranges": true,
+        "seconds": true,
+        "secondsFrom": 1,
+        "secondsTo": 59,
+        "ticks": true,
+        "weeks": true,
+        "weeksFrom": 1,
+        "weeksTo": 52
+      },
+      "ohlcPlots": {},
+      "palettes": {},
+      "precision": "default",
+      "showLabelsOnPriceScale": true,
+      "showLegendValues": true,
+      "styles": {
+        "LowerBand": {
+          "color": "#4caf50",
+          "display": 15,
+          "linestyle": 0,
+          "linewidth": 1,
+          "plottype": 0,
+          "title": "LowerBand",
+          "trackPrice": false,
+          "transparency": 0
+        },
+        "LowerBand_2": {
+          "color": "#808000",
+          "display": 15,
+          "linestyle": 0,
+          "linewidth": 1,
+          "plottype": 0,
+          "title": "LowerBand_2",
+          "trackPrice": false,
+          "transparency": 0
+        },
+        "LowerBand_3": {
+          "color": "#00897b",
+          "display": 15,
+          "linestyle": 0,
+          "linewidth": 1,
+          "plottype": 0,
+          "title": "LowerBand_3",
+          "trackPrice": false,
+          "transparency": 0
+        },
+        "UpperBand": {
+          "color": "#4caf50",
+          "display": 15,
+          "linestyle": 0,
+          "linewidth": 1,
+          "plottype": 0,
+          "title": "UpperBand",
+          "trackPrice": false,
+          "transparency": 0
+        },
+        "UpperBand_2": {
+          "color": "#808000",
+          "display": 15,
+          "linestyle": 0,
+          "linewidth": 1,
+          "plottype": 0,
+          "title": "UpperBand_2",
+          "trackPrice": false,
+          "transparency": 0
+        },
+        "UpperBand_3": {
+          "color": "#00897b",
+          "display": 15,
+          "linestyle": 0,
+          "linewidth": 1,
+          "plottype": 0,
+          "title": "UpperBand_3",
+          "trackPrice": false,
+          "transparency": 0
+        },
+        "VWAP": {
+          "color": "#1e88e5",
+          "display": 15,
+          "linestyle": 0,
+          "linewidth": 1,
+          "plottype": 0,
+          "title": "VWAP",
+          "trackPrice": false,
+          "transparency": 0
+        }
+      },
+      "symbol": "NIFTY",
+      "symbolStateVersion": 2,
+      "title": "",
+      "unitId": null,
+      "visible": true,
+      "zOrderVersion": 2
+    },
+    "type": "LineToolAnchoredVWAP",
+    "userEditEnabled": true,
+    "zorder": -12500
+  },
+  "symbol": "NIFTY",
+  "unitId": null
+}
