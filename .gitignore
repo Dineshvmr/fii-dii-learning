@@ -41,3 +41,6 @@ fii_dii_data_*.csv
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Separate repositories
+ra_static_page/
